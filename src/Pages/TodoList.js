@@ -21,7 +21,7 @@ const TodoList = () => {
       }
       return todo;
     });
-    alert("This task is completed");
+    alert("Have you completed the task?");
     setTodos(updatedTodos);
   };
   const removeTodo = (id) => {
